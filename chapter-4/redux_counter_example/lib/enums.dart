@@ -1,0 +1,4 @@
+enum EnumActions {
+  increment,
+  decrement,
+}
