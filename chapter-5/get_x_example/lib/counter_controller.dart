@@ -9,4 +9,9 @@ class CounterController extends GetxController {
 
     update();
   }
+  void decrement() {
+    counter.value.count--;
+
+    update();
+  }
 }
